@@ -54,9 +54,7 @@ Each system directory contains the corresponding simulation and parameter files 
 
 ```text
 *.gro
-*.top
 *.itp
-*.mdp
 ```
 
 ## Main Findings
@@ -67,7 +65,7 @@ Sugar-functionalized dendrimers exhibit enhanced hydration and relatively higher
 
 ## Reproducibility
 
-The provided GROMACS input, structure, topology, and parameter files can be used as a starting point for reproducing the molecular dynamics simulations and associated analyses.
+The provided GROMACS final structure, topology, and parameter files can be used as a starting point for reproducing the molecular dynamics simulations and associated analyses.
 
 Large trajectory and binary output files are not included in this repository where their size exceeds practical GitHub limits.
 
@@ -81,7 +79,7 @@ Large trajectory and binary output files are not included in this repository whe
 
 ## Citation
 
-If you use the simulation files or data from this repository, please cite the associated publication:
+If you use the simulation files or data from this repository, please cite the associated publication: 
 
 > **Surface Functionality and pH Govern Structural Dynamics and Drug Binding in PETIM and PAMAM Dendrimers**
 
